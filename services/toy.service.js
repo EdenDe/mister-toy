@@ -1,5 +1,5 @@
 const fs = require('fs')
-const Toys = require('../data/Toy.json')
+const Toys = require('../data/toy.json')
 
 module.exports = {
 	query,
