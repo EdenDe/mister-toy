@@ -1,0 +1,43 @@
+[
+  {
+    "createdAt": 1631031801011,
+    "inStock": true,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "name": "Talking Doll",
+    "price": 123,
+    "_id": "Q06xS"
+  },
+  {
+    "createdAt": 1631031801001,
+    "inStock": false,
+    "labels": [
+      "Battery Powered",
+      "Baby"
+    ],
+    "name": "Talking goul",
+    "price": 13,
+    "_id": "Q06xB"
+  },
+  {
+    "_id": "iI6BD",
+    "name": "frozen",
+    "price": 20,
+    "labels": [
+      "Puzzle"
+    ],
+    "createdAt": 1678793221436,
+    "inStock": true
+  },
+  {
+    "_id": "vZwOO",
+    "name": "eden",
+    "price": "2",
+    "labels": [],
+    "createdAt": 1678805453828,
+    "inStock": true
+  }
+]
