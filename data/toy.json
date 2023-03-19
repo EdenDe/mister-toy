@@ -1,6 +1,5 @@
 [
   {
-    "createdAt": 1631031801011,
     "inStock": true,
     "labels": [
       "Doll",
@@ -8,36 +7,58 @@
       "Baby"
     ],
     "name": "Talking Doll",
-    "price": 123,
-    "_id": "Q06xS"
+    "price": 123
   },
   {
-    "createdAt": 1631031801001,
     "inStock": false,
     "labels": [
       "Battery Powered",
       "Baby"
     ],
     "name": "Talking goul",
-    "price": 13,
-    "_id": "Q06xB"
+    "price": 13
   },
   {
-    "_id": "iI6BD",
     "name": "frozen",
     "price": 20,
     "labels": [
       "Puzzle"
     ],
-    "createdAt": 1678793221436,
     "inStock": true
   },
   {
-    "_id": "vZwOO",
-    "name": "eden",
-    "price": "2",
-    "labels": [],
-    "createdAt": 1678805453828,
+    "name": "robot",
+    "price": 10,
+    "labels": [
+      "Box game",
+      "Baby",
+      "Outdoor"
+    ],
+    "inStock": true
+  },
+  {
+    "name": "lego",
+    "price": 22,
+    "labels": [
+      "Box game"
+    ],
+    "inStock": true
+  },
+  {
+    "name": "ninja",
+    "price": 44,
+    "labels": [
+      "Art",
+      "Doll"
+    ],
+    "inStock": true
+  },
+  {
+    "name": "nintendo",
+    "price": 33,
+    "labels": [
+      "Battery Powered"
+    ],
     "inStock": true
   }
 ]
