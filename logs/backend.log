@@ -1,436 +1,181 @@
-17.3.2023, 14:44:11 - INFO - Server is running on port: 3030 
-17.3.2023, 14:44:21 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:46:20 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:52:33 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:53:13 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:53:49 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:54:45 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:54:56 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:56:15 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:57:27 - DEBUG - Getting Toys | {} 
-17.3.2023, 14:58:50 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:01:43 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:02:18 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:03:14 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:08:08 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:08:32 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:11:58 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:12:13 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:15:51 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:18:15 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:18:16 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:22:08 - INFO - Server is running on port: 3030 
-17.3.2023, 15:22:24 - DEBUG - auth.service - signup with username: eden, fullname: eden 
-17.3.2023, 15:22:24 - ERROR - Failed to signup TypeError: userService.add is not a function 
-17.3.2023, 15:23:40 - INFO - Server is running on port: 3030 
-17.3.2023, 15:23:40 - INFO - Server is running on port: 3030 
-17.3.2023, 15:23:42 - INFO - Server is running on port: 3030 
-17.3.2023, 15:26:48 - INFO - Server is running on port: 3030 
-17.3.2023, 15:27:50 - INFO - Server is running on port: 3030 
-17.3.2023, 15:27:54 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:27:57 - DEBUG - auth.service - signup with username: eden, fullname: eden 
-17.3.2023, 15:27:58 - DEBUG - auth.route - new account created: {"username":"eden","password":"$2b$10$ELIk2Hqqvbe7FyAIyoGB0uaKqq0nZvMBdi5h4kEVxR8MmsoBDMCI2","fullname":"eden","isAdmin":false,"_id":"64146adef3a0a8d2555c3598"} 
-17.3.2023, 15:27:58 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:27:58 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":false} 
-17.3.2023, 15:28:55 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:28:56 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:01 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:07 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:08 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:09 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:10 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:23 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:29:55 - DEBUG - auth.service - signup with username: eden, fullname: eden 
-17.3.2023, 15:29:56 - ERROR - cannot insert user | Error: Username taken 
-17.3.2023, 15:29:56 - ERROR - Failed to signup Error: Username taken 
-17.3.2023, 15:30:48 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:30:51 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:31:47 - INFO - Server is running on port: 3030 
-17.3.2023, 15:31:55 - DEBUG - auth.service - signup with username: eden, fullname: eden 
-17.3.2023, 15:31:55 - ERROR - Failed to signup Error: Username taken 
-17.3.2023, 15:31:55 - ERROR - cannot insert user | Error: Username taken 
-17.3.2023, 15:33:49 - DEBUG - auth.service - signup with username: matan, fullname: eden 
-17.3.2023, 15:33:49 - DEBUG - auth.service - login with username: matan 
-17.3.2023, 15:33:49 - DEBUG - auth.route - new account created: {"username":"matan","password":"$2b$10$hqQ5/6Ci2H3ltvuRtobUmu074xSBJQK/63tt0zNIEwsQZT2m8QFvi","fullname":"eden","isAdmin":false,"_id":"64146c3daa1a203e8d73455e"} 
-17.3.2023, 15:33:49 - INFO - User login:  | {"_id":"64146c3daa1a203e8d73455e","username":"matan","fullname":"eden","isAdmin":false} 
-17.3.2023, 15:36:29 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:36:33 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:36:33 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":false} 
-17.3.2023, 15:37:46 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:38:13 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:38:55 - DEBUG - auth.service - signup with username: matan, fullname: matan 
-17.3.2023, 15:38:56 - DEBUG - auth.route - new account created: {"username":"matan","password":"$2b$10$zJC4apFrQIReG5/.z1ddZORfHle4dTjGVFOqd5HwPJTlLncRuvQae","fullname":"matan","isAdmin":false,"_id":"64146d70aa1a203e8d73455f"} 
-17.3.2023, 15:38:56 - DEBUG - auth.service - login with username: matan 
-17.3.2023, 15:38:56 - INFO - User login:  | {"_id":"64146d70aa1a203e8d73455f","username":"matan","fullname":"matan","isAdmin":false} 
-17.3.2023, 15:38:56 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:38:58 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:39:16 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:39:16 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 15:39:54 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:40:11 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:40:28 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:41:16 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:41:16 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 15:42:19 - INFO - Server is running on port: 3030 
-17.3.2023, 15:44:19 - INFO - Server is running on port: 3030 
-17.3.2023, 15:44:22 - INFO - Req was made 
-17.3.2023, 15:44:22 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:44:31 - INFO - Req was made 
-17.3.2023, 15:44:31 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:44:49 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:44:49 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 15:44:57 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:44:57 - INFO - Req was made 
-17.3.2023, 15:49:03 - INFO - Server is running on port: 3030 
-17.3.2023, 15:53:29 - INFO - Server is running on port: 3030 
-17.3.2023, 15:55:40 - INFO - Req was made 
-17.3.2023, 15:55:40 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:55:44 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:55:44 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 15:56:48 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:56:48 - INFO - Req was made 
-17.3.2023, 15:58:24 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:58:24 - INFO - Req was made 
-17.3.2023, 15:58:34 - INFO - Req was made 
-17.3.2023, 15:58:34 - DEBUG - Getting Toys | {} 
-17.3.2023, 15:59:19 - INFO - Server is running on port: 3030 
-17.3.2023, 15:59:23 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 15:59:23 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 15:59:31 - INFO - Req was made 
-17.3.2023, 15:59:31 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:00:51 - INFO - Server is running on port: 3030 
-17.3.2023, 16:00:55 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:00:55 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:01:02 - INFO - Req was made 
-17.3.2023, 16:01:02 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:01:10 - INFO - Server is running on port: 3030 
-17.3.2023, 16:01:12 - INFO - Server is running on port: 3030 
-17.3.2023, 16:01:56 - INFO - Server is running on port: 3030 
-17.3.2023, 16:06:13 - INFO - Server is running on port: 3030 
-17.3.2023, 16:08:13 - INFO - Server is running on port: 3030 
-17.3.2023, 16:08:15 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:08:15 - INFO - User Token:  | c7251b6bebdfcdbe7838bd43da594d850e34f160f20aeee012f2778589a16541d79d346cb07dce274f9b2171e600236637e3ce7b1f74803889f2ab07111afca6d991c85908b25c39a8d529df9b179a50b16e70dfc9eb6eda8c852e667135e51e17fbcf543ac48d1a133fecaf131ddd37335784060a563033a12b16a3c26595eb7d7b8ba06aff334d8b795f31088d6a36000a511de01152e9014f660c20fbc0b9d6368d37e266c43cdb3301aa603bca6b1bc6b501f8 
-17.3.2023, 16:08:15 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:08:50 - INFO - Server is running on port: 3030 
-17.3.2023, 16:08:54 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:08:54 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:08:54 - INFO - User Token:  | f54f95c62bc8f23c22e9ba0eee62b5e49159a560178878b436d07e90f56e784b3182750277e2ce74c3a1661ffd521b5b0fbfcc9c273516995569915cb3ed2f164e2f3d21de47ebf10e61e498fb17400d36986d3dc3885005e5ba5b90f30e80e1d874094e0f57c1dff0af5da75be212264f022a6538a47cb8a80609b6e83c58bd795bad05dedf0ab4cbca297919c411466295036bdf178aba023d15bbe6654f58a0412eae1bd9a04dce584d1a45aa89fcaee7485262 
-17.3.2023, 16:08:54 - INFO - User Token:  |  
-17.3.2023, 16:10:29 - INFO - Server is running on port: 3030 
-17.3.2023, 16:10:33 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:10:33 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:10:33 - INFO - User Token:  | 1b80e713fe541699dc170f79ec38405d4398c60c9122be526656a6b05ddd075dcc79ea22aa195d5fd615de9e8db81696f350047b6fc9caed82df8f0c737a0f27d4039d2eb3a842707b88b45821a567485800ba40c1ce362fa408a27b0accdf4069593184e800abfc17ffe85ee69b87f46765badbc2dbc6033194e79078f65797730faebaeb492a07be8b004e1d9c9654a39065e5be020eb88c91da0dea8447e4ae592f00bc22069be2007e253eb5b753f51b224cad 
-17.3.2023, 16:10:33 - INFO - User Token:  |  
-17.3.2023, 16:10:56 - INFO - Server is running on port: 3030 
-17.3.2023, 16:13:26 - INFO - Server is running on port: 3030 
-17.3.2023, 16:13:29 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:13:29 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:13:29 - INFO - User Token:  | 7576290b1463768caca04cafa2d6e32dd236dba71ce159502c3f03d4d29a4df3101693aa4a0b6ace5b1a155e6735c9b69e5fe1fc80d8ec60cbe9fa5f15887a1a6ddaa118b05506c8b2d16257f087133a7e8d3788f467ad1af245c9bb3b23f25498a841b82b42f77bcb6d1a355cfe0ab7d8fef482fad5077c376257b4cb1a64b6d7d3def1b0344b809dddc0fb34c5a6a55722c4d8809d45fffeb1d7c6f02045d5bc2934f71bdd0e52fe89786c5906d9f527b1040dc1 
-17.3.2023, 16:13:29 - ERROR - Failed to Login TypeError: Cannot read properties of undefined (reading 'loginToken') 
-17.3.2023, 16:13:29 - INFO - Req was made 
-17.3.2023, 16:13:29 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:13:44 - INFO - Server is running on port: 3030 
-17.3.2023, 16:13:56 - DEBUG - auth.service - signup with username: , fullname:  
-17.3.2023, 16:13:56 - ERROR - Failed to signup fullname, username and password are required! 
-17.3.2023, 16:13:58 - INFO - Req was made 
-17.3.2023, 16:13:58 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:14:02 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:14:02 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:14:02 - INFO - User Token:  | c9aa1e5411925edc0da0124fd51647a9bf95c4476f970feaf72a9eca08c46fc3ebface4783ff90cae659a6e8550a07c75ba64ac22136ef3bffb637be772a2d041fd3c61f3a7611ada7a9a6e623bb44fd4e8dee5afe1d242b379eadae7c94608820660981b5b21ec6de6c46993f3dc3f6d28f0c6b3453de45ca41562ed03c4ec283f2d7d83688ff51a2ecbe2d3f413c7c36c98589f8766ed37158e221fe7e835c28cd2c0d6f7b8889183b6e7aa003a289db6359b3a1 
-17.3.2023, 16:14:02 - INFO - User Cookie  |  
-17.3.2023, 16:18:36 - INFO - Server is running on port: 3030 
-17.3.2023, 16:18:41 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:18:41 - INFO - User Token:  | f76a13e4ff8cbde2db7c4db249cb0d47341b408c52b0251257db88fb4648417958fe8f4c0dc84615405f63527c1a3fc39329bf4582279b7ba5148c22d6ba45ffd05b6d30da50ed8385aada1024e04429db71f7a4623d37d3ea6a4ce815a05d83b7195bd299a63673513a02b9f471ec8ebf06d9a66172b637f3802b1cd661dd411d7700aca39a97f2b6bf7740af33f6ee278fd867bd0e8276360c640a67e4c216a674dc8b7c0ee5e248e2a00f33dad81c3516bf472c 
-17.3.2023, 16:18:41 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:18:41 - INFO - User Cookie  |  
-17.3.2023, 16:20:03 - INFO - Server is running on port: 3030 
-17.3.2023, 16:25:15 - INFO - Server is running on port: 3030 
-17.3.2023, 16:25:27 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:25:27 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:25:27 - INFO - User Token:  | 96a9a396e48b742ae2a7c8363916aa352b597a59b6bbcefa2fe9a652662f4c474a330e529ee7b5da927809bc18f91b2b9327f4f411bb55df3fdc4808e725eb7c00989e2e8b83652db0da33284f95afc608b2cd0dbcd7a725e09418f7cc2c2ed1c4a4b0be348d3b50eaef110af5c7cbcfb8a9f76a5b649c4cff5647ff602bca077fcc80212e8a9082589ccb9ef18e4bc20edbd7c0fda19aa16f68123db580e23613c2051c8cbfe4f11ec2167118552828ad889dc6d5 
-17.3.2023, 16:25:27 - INFO - User Cookie  |  
-17.3.2023, 16:26:27 - INFO - Server is running on port: 3030 
-17.3.2023, 16:26:35 - INFO - Server is running on port: 3030 
-17.3.2023, 16:30:44 - INFO - Server is running on port: 3030 
-17.3.2023, 16:31:01 - INFO - Server is running on port: 3030 
-17.3.2023, 16:31:08 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:31:08 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:31:08 - INFO - User Token:  | 717877a62bf4c813d41a15d1f51068247db609843d555c7c362a11ac8ea55be073a10e796088330c5845c6562b2cef6f5b36fbdc48fc6b016508eb6e148ff41c7c5f9107f26ebaabf224a73302ad05eac2ca8ba30d73f77cde2317462177550b44d9a2a479ddf7ad0b478849bea3aa273eff71bc60b68b221ec916b75dd2c9ea74b37c56a4bf25bd9ac668171ea71b2595310e839143b696164890066cc54e9492dadab341b11c14b960c7e1e7910824d9995ac8be 
-17.3.2023, 16:31:16 - INFO - Req was made 
-17.3.2023, 16:31:16 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:31:28 - INFO - Server is running on port: 3030 
-17.3.2023, 16:31:31 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:31:32 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:31:32 - INFO - User Token:  | a7a2a3f93b85bbd9989baf5c83125cde0730558d5f65790c25ed5c9306e940c3bbc1363107bde21d53c09d0e2e8a7523f2fd3f4a184b6ebbd42819042e61120b41a789fd8f6fcee791f3ff8e55a4b3041bcf9440423cef118de5cb7fb7b705d5ded5853ad8041122b4bf931a0a41b0d2961e60f63e08f27728ba81beaaa06a013e4e25ce5761be911dc1b03a3c09ab01b331a7b464d1a1cad37e553d3067abf5237634609bbd23634c007b4209a0ec225b00595974 
-17.3.2023, 16:31:43 - INFO - Server is running on port: 3030 
-17.3.2023, 16:31:51 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:31:51 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:31:51 - INFO - User Token:  | b40bc84bce1ef08bfccbaed2c66b6b9d5f1e119e7f862ec77a88e17363b9a937c0e937cfc9657e958825ffdbbcff3f2530cce7b917e973937097f72b3ebae3cc6da8d411d2971cd3887a4ba8b61e7041fd0ca670a33a3f88b26963e37063ccc5f2c78e0612b25bb37d709c18a17294c978cbe33bde7887e5eb276ef47478a2b88da838188fb16a09a3c912e9524ebab6a6eccc540cd4c8cfd91f7d69699fbcf1fb9733df009b1c99cc002480527962153b1f2f2e69 
-17.3.2023, 16:33:25 - INFO - Server is running on port: 3030 
-17.3.2023, 16:33:28 - INFO - Server is running on port: 3030 
-17.3.2023, 16:33:38 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:33:38 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:33:38 - INFO - User Token:  | b883e2f1aa346399e033ce9dacb92d2f11f68126514b5e9c7f70daa0c5422ffdac8d4d0778e2701f699170d5af938e7b4ee1d257a774ba364bd751897b8a6a3cddd44c7b7537e2a462f235b449a580283065de671fa73c4711fb2325198a84bd17f9c1d586ec6e11f2434c5d025aa1bfcd2f8600957fe45663c385cfb23c9e9c0c23f5d9c1f28aa7787b51503c17fbd480b23ff691d3fd0c6cc0beeb9d95dec839b09bb1e43368ce4c7d3c2e9cabf30cc65b279383 
-17.3.2023, 16:34:05 - INFO - Server is running on port: 3030 
-17.3.2023, 16:34:06 - INFO - Req was made 
-17.3.2023, 16:34:06 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:34:08 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:34:09 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:34:09 - INFO - User Token:  | 73904429cae159ef42bd55762677f173d41ba33a807c7a9251db53007108e8943f5713ec024a721334c9dd90f4513c6eccd17a8eb5ac0a4e23bb1265541ac7998e3f0ec39f6f03a3a0dc6f8ef76367029f776aeee194d79fe5502480709b10d8a0977b30d751ef21596f5d6f52c628a1c4aed84324d248dbd5e109bb96b86dc23001d4eabd9b7c98c7f9758df240ef589348a5df4a0b1bf121f0f87c3e08e24ab47a5ff89f4cc439c8060d1ceb8b692a8c6533b477 
-17.3.2023, 16:34:54 - INFO - Server is running on port: 3030 
-17.3.2023, 16:35:08 - INFO - Server is running on port: 3030 
-17.3.2023, 16:35:10 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:35:10 - INFO - User Token:  | 605b7120e6e53959623faf929fff1641d188d944e49ceb9b6fc53fc4adecae0fafde781a876ea8a1e929606a4df993d9a10edb5c943e5c7632467964ee3bfc666aaf7faf132ac9a2942087e74aa086c8c0f66fa8a4cd14561ec868f1109077553ca36eb655583e2d9e0b530b101db317bc54d91b40c641fc1f73c29ac7b2175dcb7525b0e429062a6b3a4ff9a5a64ad6a406ee610e41bd95c1e161d803e88e3ce4f79bad84962e6ab3d5b337391277a50f37409f6c 
-17.3.2023, 16:35:10 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:35:50 - INFO - Server is running on port: 3030 
-17.3.2023, 16:35:58 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:35:59 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:35:59 - INFO - User Token:  | 09f1d50007bea8d28e23c7e8ad916d0425832147d17cdb30e2d06880a7aee94dc2b660995920cb0ad0ce03dae5d5ef03394d8e19cc495a7b92e3895fc9c75b3b5c06f2d449bb871d89d2fae2d378ed3ea3e3bf7a712915a84c517a3c7fc2bd170b3503a9581daa9d11a4366276e5e6487b3729a6e3f2373da97845c666bcac4b9374c813d8d52ed44bdef8c42f6bb2988acb80f89edc1c92ac848cbf85a2c7fbc0ee100358a6f085c9cfbb19dca0faf31ca27c5cc6 
-17.3.2023, 16:36:27 - INFO - Server is running on port: 3030 
-17.3.2023, 16:36:28 - INFO - Req was made 
-17.3.2023, 16:36:28 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:36:32 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:36:32 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:36:32 - INFO - User Token:  | f5e7ca3492a3353991635181e0b70b28accdb594ad335cee9254f9e3484ff25723dfad42a69c20878351c199b3449acd9a2f97d661d503195ebe5c0451716a9589f14f141ed225dd546216097f6139677c0d1be5f87e94a41a578417ed22ef07c22a7642a9c9764c738a0dff260303c1acb239302ee984f5f23875b4f0e527de48ffab19fbcd73c471d3af4d8141c5b8c2664ed8ef23b255a7e8da3ff7a08f18b6ab2240a0994d7a45197667227711e8b4edd94ee7 
-17.3.2023, 16:36:32 - ERROR - Failed to Login TypeError: req.cookie is not a function 
-17.3.2023, 16:36:33 - INFO - Req was made 
-17.3.2023, 16:36:33 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:36:41 - INFO - Server is running on port: 3030 
-17.3.2023, 16:36:51 - INFO - Server is running on port: 3030 
-17.3.2023, 16:36:58 - INFO - Server is running on port: 3030 
-17.3.2023, 16:37:00 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:37:01 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:37:01 - INFO - User Token:  | b07ad48a9c5a999945d433da58081a85f76632a6724492f5cb3d8fcd19ebbc229b9d190c7871d29598f780d704813b26dcc01f5c4c763a53fb1598e070ad3852aa97cc4d026e1bc4de8a3081d1d151d9466bdf84cd715c81e191b2e7ccb8c72ce6a40482ecef4d3f2b5930824578661e77a6c811c98bdc27b3e89617d8f4cd9660371e33ed4ce6d8cba4fbd807ed31ae57d4e014488b0098064d7b8c493e011c07396d403f795ed69736eb20aec115dc1fd02df6ed 
-17.3.2023, 16:37:01 - ERROR - Failed to Login TypeError: Cannot read properties of undefined (reading 'loginToken') 
-17.3.2023, 16:37:01 - DEBUG - Getting Toys | {} 
-17.3.2023, 16:37:01 - INFO - Req was made 
-17.3.2023, 16:37:23 - INFO - Server is running on port: 3030 
-17.3.2023, 16:37:26 - DEBUG - auth.service - login with username: eden 
-17.3.2023, 16:37:26 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-17.3.2023, 16:37:26 - INFO - User Token:  | 96f00f091e9c552124276a277d47e80cd236585915f72dfa9eb5a68eac9facdd24c7f6c8b284aef5bb39ec0ad7357daaf39a5be0710be1eaa8f64474de23f9db89fade2c88f113b980160cbd68f8e6d9f1bd3a1abb9278b1a55c42c8c91c1d425d0fa1cea904794231c36fb3f6f83873a58c80d1ddfc37122ab5732e5ef337f7a2e70d24d750112e5763f18f7fae90c3b710852f8262822f82cfe85cf23802f53ec8fcd00ae788c515cc2491158b72244a9cd0bd83 
-17.3.2023, 16:39:12 - INFO - Server is running on port: 3030 
-17.3.2023, 16:41:00 - INFO - Server is running on port: 3030 
-18.3.2023, 11:35:51 - INFO - Server is running on port: 3030 
-18.3.2023, 11:36:28 - INFO - Req was made 
-18.3.2023, 11:36:28 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:36:39 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:36:39 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:36:39 - INFO - User Token:  | fbd3ec9f38833f711a6029e301086a669c2ed04e45ed1a369e5ed0bb06d907e3dce15ef897c97a84d8ea9701b4c3974d8cf471102839a63230c117a504f3b4745784866ce62b421877b1984729f52ae2b1bb18cfb1385d3362db69f55dcbaa66e9bc8c845949c7a00c8ece9d0ecb2259b3167b6597a9ef90530f94bbc6b8cc62735c489b2b9ccfa103b2a1e193e13f4c2428984f76c6f76994477c33c349d9304074eb65cc72a70e9a98228663cbea2bae4ec2c199 
-18.3.2023, 11:37:03 - INFO - Server is running on port: 3030 
-18.3.2023, 11:37:05 - INFO - Req was made 
-18.3.2023, 11:37:05 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:38:02 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:38:02 - INFO - Req was made 
-18.3.2023, 11:39:50 - INFO - Server is running on port: 3030 
-18.3.2023, 11:39:55 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:39:55 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:39:55 - INFO - User Token:  | d295d0bb0fde98513f9807d6ff2aa052b77034466e95103df6ff91330e296d75d07f383570ee109f426038c3a5775093398965e20ba31aee5c5ce26bb2f54fb31d855243ad4b7b577c4328489d9b692fde0d4b1c1dab2ad4f7f93ade6f1181897f8a1f83014251b5c5ffe5512bd4b87c515ababb747bf7fbff632c24740d3d1dd0e1aa9329cc29fe6d8d7cc0ab8a7c5e36a8bc0a9ba68b96f8e9b23d102e47edff731835e620c5b41d12e794a7f26f2e2e5fb8b2d6 
-18.3.2023, 11:40:02 - INFO - Req was made 
-18.3.2023, 11:40:02 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:42:07 - INFO - Server is running on port: 3030 
-18.3.2023, 11:42:16 - INFO - Req was made 
-18.3.2023, 11:42:16 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:42:18 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:42:18 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:42:18 - INFO - User Token:  | 61f6b99a2800a7e4f97d4baf14407d79adaa1be6d0cd6955479bd3ee34edfc8b9fa9513b191c9bfa1c9f329a4a24739a742a0a3a68614d1f22ae2716b1e64475312736669f4f1e50952bbc91f81752e748bfdca063609c60ecfd41af7300c7dcaaaed410699da6f60a8c80869e512baacf773d0df5c7ec103690bbee571cb1d5dd952266c498eb1fe2cd4fcf934ed89dd689e865374dafe9454325471eecc6de0fc37f21ccb0122be1d9b4bb57f4c0308f427a260c 
-18.3.2023, 11:42:26 - INFO - Req was made 
-18.3.2023, 11:42:26 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:42:40 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:42:40 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:42:40 - INFO - User Token:  | bdadb260e67ae602a58fa484d43c44635f5881a0dffa78bf227881f101e80b95243573eb23741b2357d27499032f35f5c1147335772caa84aabe90ff75c2e600c0d118903455bb40c90b94b7581300807d0747338328d3492e27d46f4f97b990bc0abd3644dcce5d8c2981a4d64d636453f64671e1d9f88d9b546f5542601d6bf79de43234ad2ac94a394718f1e088bccac9d917dd23dfb0e88f00754ce99a9fdf97263fb88fdfc0a70d7ab497b826a4947c8598d5 
-18.3.2023, 11:44:05 - INFO - Server is running on port: 3030 
-18.3.2023, 11:44:13 - INFO - Req was made 
-18.3.2023, 11:44:13 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:44:32 - INFO - Server is running on port: 3030 
-18.3.2023, 11:45:09 - INFO - Server is running on port: 3030 
-18.3.2023, 11:45:33 - INFO - Server is running on port: 3030 
-18.3.2023, 11:45:33 - INFO - Req was made 
-18.3.2023, 11:45:33 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:45:35 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:45:35 - INFO - User Token:  | a188fef6f955c9059da6e11bd1dd5f6145d73e0116216c6c768639b22caeaa78c42a1b8a26633665a1edb33b9e993848262360a36f4ab5598c85168faf85945d6eafaf0d10ec8f3cee3ae431fd4dd33b440556284f264be7e59ca376c2ad2f734d2c31a2835c1a1f2ae0809c6d042701043910b3f4ea098abd736156f1ed6722662f41709fac04c7b0abab223513c92e84c5486d9b95efe48bdc53271a943738c793c7fca700ef227dc35a0ea85736746f4fabcb85 
-18.3.2023, 11:45:35 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:45:45 - ERROR - while finding toy undefined | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:45:45 - ERROR - Failed to get a toy | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:45:53 - ERROR - while finding toy undefined | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:45:53 - ERROR - Failed to get a toy | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:46:33 - INFO - Server is running on port: 3030 
-18.3.2023, 11:46:51 - INFO - Req was made 
-18.3.2023, 11:46:51 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:46:54 - ERROR - while finding toy undefined | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:46:54 - ERROR - Failed to get a toy | TypeError: Cannot set properties of null (setting 'createdAt') 
-18.3.2023, 11:47:40 - INFO - Server is running on port: 3030 
-18.3.2023, 11:47:45 - INFO - Req was made 
-18.3.2023, 11:47:45 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:47:48 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:47:48 - INFO - Req was made 
-18.3.2023, 11:47:59 - INFO - Req was made 
-18.3.2023, 11:47:59 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:48:14 - INFO - Server is running on port: 3030 
-18.3.2023, 11:48:19 - INFO - Server is running on port: 3030 
-18.3.2023, 11:48:21 - INFO - Req was made 
-18.3.2023, 11:48:21 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:48:26 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 11:48:26 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 11:48:26 - INFO - User Token:  | 579e8361649e88b27726dfae7c4dc6cc9d491100ff8a4faa3127d91981af5b9f536ebe0ab12666b9d25d4d63896c8ea8a198ea4b608dedc7fc1a575fc9d7adebf2d113049f985a2a62f346e78f13b9442452bd1daa12f36ba5015e6bec5992717ec9ffddea9ca12abad0169bd92f3429e735c206286676c9c2b1daa0d42fd1f410426f183af82236459d6c407978ea6f7dbf812151def67eaa1e3e62f80495b1e32804c581ec5f7fade7cc886a72f2e3fcf2eaf745 
-18.3.2023, 11:49:19 - INFO - Server is running on port: 3030 
-18.3.2023, 11:49:27 - INFO - Server is running on port: 3030 
-18.3.2023, 11:49:28 - INFO - Req was made 
-18.3.2023, 11:49:28 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:50:06 - INFO - Req was made 
-18.3.2023, 11:50:06 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:50:06 - INFO - Req was made 
-18.3.2023, 11:50:06 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:51:12 - INFO - Req was made 
-18.3.2023, 11:51:12 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:52:44 - INFO - Req was made 
-18.3.2023, 11:52:44 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:45 - INFO - Req was made 
-18.3.2023, 11:52:45 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:52:45 - INFO - Req was made 
-18.3.2023, 11:52:45 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:47 - INFO - Req was made 
-18.3.2023, 11:52:47 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:52:48 - INFO - Req was made 
-18.3.2023, 11:52:48 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:48 - INFO - Req was made 
-18.3.2023, 11:52:48 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:52:48 - INFO - Req was made 
-18.3.2023, 11:52:48 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:49 - INFO - Req was made 
-18.3.2023, 11:52:49 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:52:49 - INFO - Req was made 
-18.3.2023, 11:52:49 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:50 - INFO - Req was made 
-18.3.2023, 11:52:50 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:52:50 - INFO - Req was made 
-18.3.2023, 11:52:50 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 11:52:53 - INFO - Req was made 
-18.3.2023, 11:52:53 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 11:54:20 - INFO - Req was made 
-18.3.2023, 11:54:20 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:56:09 - INFO - Req was made 
-18.3.2023, 11:56:09 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:56:42 - INFO - Req was made 
-18.3.2023, 11:56:42 - DEBUG - Getting Toys | {} 
-18.3.2023, 11:56:47 - DEBUG - auth.service - login with username: matan 
-18.3.2023, 11:56:47 - INFO - User login:  | {"_id":"64146d70aa1a203e8d73455f","username":"matan","fullname":"matan","isAdmin":false} 
-18.3.2023, 11:56:47 - INFO - User Token:  | 782aef565c892e8d95ef482a03c76005456aed28fcbeb46e762437926e258c9b29064bebc39a16e4e3669092207542d58b59c35ef86cbf31a4b0834f64cb89a81500bd40d01f7eea92597e84ff1b6c6de1c6c21126bbbc6f6ef1026bef30339de0cff2a13085621b7d32bfdaa4cb984aa3dc2ea6cb3f180fc90fd07c459399360372009c3939ff3f0149ab33b96204de7d3f5d7aa09bde4fb732d521e310b06170689a361c6f0cca2fda96788a24cdf3b65f097b469f14c3 
-18.3.2023, 12:10:11 - INFO - Req was made 
-18.3.2023, 12:10:11 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:10:16 - DEBUG - auth.service - login with username: eden 
-18.3.2023, 12:10:16 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-18.3.2023, 12:10:16 - INFO - User Token:  | 05b2ddbe970afcf0a26769a674f345fcd298be3b6f848586c3160f28b7c4c855c3f0ac2d4657e07ae01427c6dc4e8f72dbee7f2ec3ca139f5217697787c21f0e77941cb6fcbec9ccb2f4721b204152364020cebe4984355e87021c013ec0e163d87a11be820ff03f338cea1e9e92f4d061c42bb07a14720482ce9852a34ffe49a8ae05efda20d059238ee7d80c316c16727d12948856e4a626ad2ec3d2e6daf44a36e2aaba0f5a76c7bb26e51fb0879a4299cc75f1 
-18.3.2023, 12:10:46 - INFO - Req was made 
-18.3.2023, 12:10:46 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:13:10 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:13:10 - INFO - Req was made 
-18.3.2023, 12:13:35 - INFO - Req was made 
-18.3.2023, 12:13:35 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:14:39 - INFO - Req was made 
-18.3.2023, 12:14:39 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:14:49 - INFO - Req was made 
-18.3.2023, 12:14:49 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:14:49 - INFO - Req was made 
-18.3.2023, 12:14:49 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 12:14:50 - INFO - Req was made 
-18.3.2023, 12:14:50 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 12:14:51 - INFO - Req was made 
-18.3.2023, 12:14:51 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 12:14:51 - INFO - Req was made 
-18.3.2023, 12:14:51 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 12:14:51 - INFO - Req was made 
-18.3.2023, 12:14:51 - DEBUG - Getting Toys | {"txt":"","inStock":"true","sortBy":"created_time"} 
-18.3.2023, 12:14:52 - INFO - Req was made 
-18.3.2023, 12:14:52 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-18.3.2023, 12:16:07 - INFO - Req was made 
-18.3.2023, 12:16:08 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:17:39 - INFO - Req was made 
-18.3.2023, 12:17:39 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:17:43 - INFO - Req was made 
-18.3.2023, 12:17:43 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:18:08 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:18:08 - INFO - Req was made 
-18.3.2023, 12:18:09 - INFO - Req was made 
-18.3.2023, 12:18:09 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:18:51 - INFO - Req was made 
-18.3.2023, 12:18:51 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:19:23 - INFO - Req was made 
-18.3.2023, 12:19:23 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:24:42 - INFO - Req was made 
-18.3.2023, 12:24:42 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:25:07 - INFO - Req was made 
-18.3.2023, 12:25:07 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:27:32 - INFO - Req was made 
-18.3.2023, 12:27:32 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:28:13 - INFO - Req was made 
-18.3.2023, 12:28:13 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:28:49 - INFO - Req was made 
-18.3.2023, 12:28:49 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:28:50 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:28:50 - INFO - Req was made 
-18.3.2023, 12:29:11 - INFO - Req was made 
-18.3.2023, 12:29:11 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:29:13 - INFO - Req was made 
-18.3.2023, 12:29:13 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:29:20 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:29:20 - INFO - Req was made 
-18.3.2023, 12:29:20 - INFO - Req was made 
-18.3.2023, 12:29:20 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:43:34 - INFO - Req was made 
-18.3.2023, 12:43:34 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:48:04 - INFO - Req was made 
-18.3.2023, 12:48:04 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:48:06 - INFO - Req was made 
-18.3.2023, 12:48:06 - DEBUG - Getting Toys | {} 
-18.3.2023, 12:56:43 - INFO - Server is running on port: 3030 
-18.3.2023, 12:59:33 - INFO - Server is running on port: 3030 
-18.3.2023, 13:01:46 - INFO - Req was made 
-18.3.2023, 13:01:46 - DEBUG - Getting Toys | {} 
-18.3.2023, 13:02:40 - INFO - Server is running on port: 3030 
-18.3.2023, 13:02:55 - INFO - Server is running on port: 3030 
-18.3.2023, 13:06:34 - INFO - Server is running on port: 3030 
-18.3.2023, 13:07:59 - INFO - Req was made 
-18.3.2023, 13:07:59 - DEBUG - Getting Toys | {} 
-18.3.2023, 13:08:47 - INFO - Server is running on port: 3030 
-18.3.2023, 13:08:57 - INFO - Req was made 
-18.3.2023, 13:08:57 - DEBUG - Getting Toys | {} 
-18.3.2023, 13:09:33 - INFO - Server is running on port: 3030 
-18.3.2023, 13:09:53 - INFO - Server is running on port: 3030 
-18.3.2023, 13:11:59 - INFO - Req was made 
-18.3.2023, 13:11:59 - DEBUG - Getting Toys | {} 
-18.3.2023, 13:13:04 - INFO - Server is running on port: 3030 
-18.3.2023, 13:14:02 - INFO - Server is running on port: 3030 
-18.3.2023, 13:14:28 - INFO - Server is running on port: 3030 
-18.3.2023, 13:15:09 - INFO - Server is running on port: 3030 
-18.3.2023, 13:15:19 - INFO - Req was made 
-18.3.2023, 13:15:20 - DEBUG - Getting Toys | {} 
-18.3.2023, 13:16:07 - INFO - Server is running on port: 3030 
-18.3.2023, 13:16:47 - INFO - Server is running on port: 3030 
-19.3.2023, 9:02:20 - INFO - Server is running on port: 3030 
-19.3.2023, 9:03:11 - INFO - Req was made 
-19.3.2023, 9:03:11 - DEBUG - Getting Toys | {} 
-19.3.2023, 9:03:18 - DEBUG - auth.service - login with username: eden 
-19.3.2023, 9:03:18 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"eden","fullname":"eden","isAdmin":true} 
-19.3.2023, 9:03:18 - INFO - User Token:  | 6c5c2213f1fe6a66a59c25dbe84af43485260cf5258a809b566ad04d51701e211ca2de352d46b4b83caccf92d7b1226332f4103a155776638a547dd51c468730884adf856bf584fcc7349fa744d71bfa2ef21ff8e8807132511fd603679caa81769c49018dd51e713beb22476067a38135c3356cc2419d9d610fc6aa36596944f447f5fe1c93a1c2fac14d067c206f62f9f946c23f241a184260b5731b38e0de8063d4f2176b2728c93b6f35254795fbbe45baa98c 
-19.3.2023, 9:05:09 - INFO - Req was made 
-19.3.2023, 9:05:09 - DEBUG - Getting Toys | {} 
-19.3.2023, 9:08:00 - INFO - Req was made 
-19.3.2023, 9:08:00 - DEBUG - Getting Toys | {} 
-19.3.2023, 9:16:01 - DEBUG - Getting Toys | {"txt":"","inStock":"false","labels":["Doll"],"sortBy":"created_time"} 
-19.3.2023, 9:16:01 - INFO - Req was made 
-19.3.2023, 9:16:05 - INFO - Req was made 
-19.3.2023, 9:16:05 - DEBUG - Getting Toys | {"txt":"","inStock":"false","labels":["Doll","Art"],"sortBy":"created_time"} 
-19.3.2023, 9:16:08 - INFO - Req was made 
-19.3.2023, 9:16:08 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-19.3.2023, 9:16:11 - INFO - Req was made 
-19.3.2023, 9:16:11 - DEBUG - Getting Toys | {"txt":"","inStock":"false","labels":["Doll"],"sortBy":"created_time"} 
-19.3.2023, 9:16:13 - INFO - Req was made 
-19.3.2023, 9:16:13 - DEBUG - Getting Toys | {"txt":"","inStock":"false","labels":["Doll","Battery Powered"],"sortBy":"created_time"} 
-19.3.2023, 9:16:16 - INFO - Req was made 
-19.3.2023, 9:16:16 - DEBUG - Getting Toys | {"txt":"","inStock":"false","sortBy":"created_time"} 
-19.3.2023, 9:52:49 - INFO - Server is running on port: 3030 
-19.3.2023, 9:53:52 - INFO - Server is running on port: 3030 
-19.3.2023, 9:54:15 - INFO - Server is running on port: 3030 
-19.3.2023, 10:01:26 - INFO - Server is running on port: 3030 
-19.3.2023, 10:03:00 - INFO - Server is running on port: 3030 
-19.3.2023, 10:10:39 - INFO - Server is running on port: 3030 
+19.3.2023, 13:04:23 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:04:23 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:04:23 - DEBUG - User token:  | 95ee0aebef7cb4a75ff84b093ceb10c87941334496bc487c0bc3b4aeffba9d21fdb82bfd1588593622acc227dfc5bfb7e72cea5eb83f5e002f4d7a3085be6fb936934b6b13f9d97c5a42b08e707f9b21b413deb16488411ceacbf40c88d4881ec823a0efd06af49aecd5cdfa28ab7411cf9f852aa2de0b95f89fa0af7abb9a12ebdd5e6e0207dbe90c8b6ef12cdd55f2b6a5924413671d85df8b430e6c87e14f02ebb196 
+19.3.2023, 13:04:23 - DEBUG - cookies:  | {"loginToken":"1079e8725736c38e5d0fef6510c2fa9e063048a292ea6ce9ff54568af8153fbee85ccddb424645fd2cd6f28fcb4c3e2b448e5f3a1ee4e93ace6f4a83e79c9c7b1e5bc95a445b7dfa29769be9a8def7368edaf6772f8d4a5311a8660f5576b4c46c1be2431c29b9c3e795680ce220e8b3049256983abbdf42f1d4d71845604556f8235f3ff02f8edda11f05be1e91b784aa515bdef5979c8512a7576a48c2609ff67aa670"} 
+19.3.2023, 13:04:34 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:04:34 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:04:34 - DEBUG - cookies:  | {} 
+19.3.2023, 13:04:34 - DEBUG - User token:  | a1b19a53585136928575e7c31705921e9145a960039e26123289ce80efa7ec4c16fb0ab3b3a3beade10f3f3ccef0b54155f13af782262ef16cab0a93980cfd42ad2468920d3934c66a0a14eee93b555e9d8de245d4b311f3c277bf1d40ddf92ba3ab05efdeec158acd0e47cbf42df0003b7efdfd929558287e7d838347a041860a9a7644e54a634f971a71b4620bfc0b644da1ade66d13156fa4b5dc7a8fa7018efd690a 
+19.3.2023, 13:04:57 - INFO - Server is running on port: 3030 
+19.3.2023, 13:05:01 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:05:01 - DEBUG - User token:  | 5507319e07f2b24b5823ddef6c24d72da48db03b3b223b574241651af75984c03cabf15ee3abb1651832f97e99331ae61da8ee9ca108cd320f5d0d5e4f9d9cd5167fcc29ce52d305a706ce0e131d665e0fc12a85bf3e3601ffc643ae7c244d593107dd727fe9101c7c780660c36a8956dd0ec25143418800fe4200338491cd7eca9e52e18e2e482cf3e0721f7ac1c4a4db3a296968664f1db744b4d4955431d75f317022 
+19.3.2023, 13:05:01 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:05:01 - DEBUG - cookies:  | {"loginToken":"a1b19a53585136928575e7c31705921e9145a960039e26123289ce80efa7ec4c16fb0ab3b3a3beade10f3f3ccef0b54155f13af782262ef16cab0a93980cfd42ad2468920d3934c66a0a14eee93b555e9d8de245d4b311f3c277bf1d40ddf92ba3ab05efdeec158acd0e47cbf42df0003b7efdfd929558287e7d838347a041860a9a7644e54a634f971a71b4620bfc0b644da1ade66d13156fa4b5dc7a8fa7018efd690a"} 
+19.3.2023, 13:05:32 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:05:32 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:05:32 - DEBUG - User token:  | 19921dcdc6c774495ad85a02efb5abc4ba2508105a0e7ca8ea710051129fa96df9962a1ce0f4908765085600a4584e0071aea8bc2a57544d9cb9533f522754882fdc42c8e7e7b39772755226f375682cc8e4f55439af06ec10e99bdd2ea60faa3e103d93e3409960a01c9b3f128f11700383954a502e28b93686e109a7fd07a1a5721dd2eb3ade37a5b88f2f57c0e2c15dd1993f5914d0759c5dafd692a5fd37cc885f64 
+19.3.2023, 13:05:32 - DEBUG - cookies:  | {} 
+19.3.2023, 13:05:56 - INFO - Server is running on port: 3030 
+19.3.2023, 13:06:02 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:06:02 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:06:02 - DEBUG - User token:  | 99222c5c4e077f2c3bd44ebe17c34e804405f14caa1f30fed9cd45f0e0eb145aa59c750520f6628fef17f9917c746f709b6b3d7de0a1557569b6a348f5f708744f3c5614494ab67ea168cc0986ae933203133346f07cff52c5ec209418e13bd0c1ad46c919981e0a4577164db9013360475f29cbd5e2463f3215486f883958638db7521de5cee7b95eb0b4a984163fb6e85fec9abf73720c54bfc8f4a462cef4d95125bd 
+19.3.2023, 13:06:12 - DEBUG - requireAuth cookies | 99222c5c4e077f2c3bd44ebe17c34e804405f14caa1f30fed9cd45f0e0eb145aa59c750520f6628fef17f9917c746f709b6b3d7de0a1557569b6a348f5f708744f3c5614494ab67ea168cc0986ae933203133346f07cff52c5ec209418e13bd0c1ad46c919981e0a4577164db9013360475f29cbd5e2463f3215486f883958638db7521de5cee7b95eb0b4a984163fb6e85fec9abf73720c54bfc8f4a462cef4d95125bd 
+19.3.2023, 13:06:41 - INFO - Req was made 
+19.3.2023, 13:06:41 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:06:47 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:06:47 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:06:47 - DEBUG - User token:  | d6a82e9143561ced5fe371c58d670542abb8dbff965a732a9eb44d2d59ddcaef52445a6643d49b87f7b49ce4b27fa8b4b2eece3f9ee60130aa995db5e07b8dc2c6ffd0871d5fcc7cf94ee17e792ca2dfdbd4ef2a52002b10d6c939635627ae52e4047f4b86f904c4a75316d5f841208003c4ea5640954b7ab24df3f5e70d854f7b1f3adcd1af1f497dd39a2a3b06a636fdf7a6905e621e37bf29fc993ff2f635666b106f 
+19.3.2023, 13:07:04 - DEBUG - requireAuth cookies |  
+19.3.2023, 13:07:05 - INFO - Req was made 
+19.3.2023, 13:07:05 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:09:42 - INFO - Req was made 
+19.3.2023, 13:09:42 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:09:53 - INFO - Req was made 
+19.3.2023, 13:09:53 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:09:55 - DEBUG - auth.service - login with username: eden 
+19.3.2023, 13:09:55 - ERROR - Failed to Login Invalid username or password 
+19.3.2023, 13:09:56 - INFO - Req was made 
+19.3.2023, 13:09:56 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:10:01 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:10:01 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:10:01 - DEBUG - User token:  | bb96e7e82418e210fe4078d83feda4d52f185a80097ab9e2669cf3ed83880108237b3c77a7a3daafa2dc330577147d7029666fe093695abf264f352296c5d06be83f07e4795c8d284ee90300c297ebb5ee29e21703ccd64fb45d89ac3dc51fba166301cd08e1deee0de4e5a9ffb09f23d376e2f8a7389de9bb20f0b3eb37b7873946499fd89210e64fc6cf589b4dde0f10e4ea05d0a4e4a323d366bb08372583a55c4615 
+19.3.2023, 13:10:12 - DEBUG - requireAuth cookies |  
+19.3.2023, 13:10:13 - INFO - Req was made 
+19.3.2023, 13:10:13 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:11:46 - INFO - Req was made 
+19.3.2023, 13:11:46 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:11:48 - INFO - Req was made 
+19.3.2023, 13:11:48 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:11:51 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:11:52 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:11:52 - DEBUG - User token:  | 080156734c5f1bf34c82feec4cd7e8a26094414dd1f7fb677fc5f80548959f8bbb78f3b24fdc396441a7eed2ed10c9cdfdfafc31da309cd4ac8e6a3c92b97e53e434fefecbb252e7872fb83863643fdb9e1977645a0950b3ab50d2a1b50ba3b64722c6f4502047b2227495f7e372db8116c151ce1c6835141281b710e7bb0271dd5a68de2b3366e7898116fad487326ff23014abf9515220ad669baa191ed8d35998149d 
+19.3.2023, 13:11:57 - DEBUG - requireAuth cookies |  
+19.3.2023, 13:11:58 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:11:58 - INFO - Req was made 
+19.3.2023, 13:12:44 - INFO - Server is running on port: 3030 
+19.3.2023, 13:13:06 - INFO - Server is running on port: 3030 
+19.3.2023, 13:15:00 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:15:00 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:15:07 - DEBUG - requireAuth cookies |  
+19.3.2023, 13:15:08 - INFO - Req was made 
+19.3.2023, 13:15:08 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:24:09 - INFO - Req was made 
+19.3.2023, 13:24:09 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:24:14 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:24:14 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:24:21 - DEBUG - requireAuth cookies |  
+19.3.2023, 13:24:23 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:24:23 - INFO - Req was made 
+19.3.2023, 13:27:17 - INFO - Req was made 
+19.3.2023, 13:27:17 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:27:29 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:27:29 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:27:49 - DEBUG - requireAuth cookies | 99222c5c4e077f2c3bd44ebe17c34e804405f14caa1f30fed9cd45f0e0eb145aa59c750520f6628fef17f9917c746f709b6b3d7de0a1557569b6a348f5f708744f3c5614494ab67ea168cc0986ae933203133346f07cff52c5ec209418e13bd0c1ad46c919981e0a4577164db9013360475f29cbd5e2463f3215486f883958638db7521de5cee7b95eb0b4a984163fb6e85fec9abf73720c54bfc8f4a462cef4d95125bd 
+19.3.2023, 13:50:27 - INFO - Req was made 
+19.3.2023, 13:50:27 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:51:12 - INFO - Req was made 
+19.3.2023, 13:51:12 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:51:19 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:51:19 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:51:27 - DEBUG - requireAuth cookies | 75bd2a6c8922f8331b0f3701fa93dac7c2526f2128affad3d1a5ef30bb1a37a7e79b5eb252e0da7a7a4d07954141f496ebca23ceea3445a5339e802b1386a9ebf1268a761d28189fe69aa99ad05a0857c31515e24f6cfc879e4c5612aeac4f199555551c80c9e9ab3601cc2ea69b1d74b140303b1c348c622372dd63ead7f626378a515bb99d47b8f7cc5d2c0e1a48077407f9d99d02e0b2715fecf642c08179a9a6eb75 
+19.3.2023, 13:52:35 - INFO - Req was made 
+19.3.2023, 13:52:35 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:52:44 - DEBUG - requireAuth cookies | 75bd2a6c8922f8331b0f3701fa93dac7c2526f2128affad3d1a5ef30bb1a37a7e79b5eb252e0da7a7a4d07954141f496ebca23ceea3445a5339e802b1386a9ebf1268a761d28189fe69aa99ad05a0857c31515e24f6cfc879e4c5612aeac4f199555551c80c9e9ab3601cc2ea69b1d74b140303b1c348c622372dd63ead7f626378a515bb99d47b8f7cc5d2c0e1a48077407f9d99d02e0b2715fecf642c08179a9a6eb75 
+19.3.2023, 13:52:47 - DEBUG - requireAuth cookies | 75bd2a6c8922f8331b0f3701fa93dac7c2526f2128affad3d1a5ef30bb1a37a7e79b5eb252e0da7a7a4d07954141f496ebca23ceea3445a5339e802b1386a9ebf1268a761d28189fe69aa99ad05a0857c31515e24f6cfc879e4c5612aeac4f199555551c80c9e9ab3601cc2ea69b1d74b140303b1c348c622372dd63ead7f626378a515bb99d47b8f7cc5d2c0e1a48077407f9d99d02e0b2715fecf642c08179a9a6eb75 
+19.3.2023, 13:55:28 - DEBUG - auth.service - login with username: eden 
+19.3.2023, 13:55:28 - INFO - User login:  | {"_id":"64146d70aa1a203e8d73455f","username":"eden","fullname":"eden","isAdmin":false} 
+19.3.2023, 13:59:30 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 13:59:30 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 13:59:42 - INFO - Req was made 
+19.3.2023, 13:59:42 - DEBUG - Getting Toys | {} 
+19.3.2023, 13:59:55 - DEBUG - requireAuth cookies | 26f004833a32807219574f1f965e572d6dc53aa65b7637d4d64a14d044b53f5952a42da97b48e2367eedc22528f5308b4e3dff1dd448c5745af8e73b380abfe8d2c78bcaa97923e2ccb52f7a0828be36795e545314eaf10604302b70ff2beba0a3bba508b25baa7b9cd98f6e03385c6ba656d040e535abf4890f62f4c0a6e3bdf7b09dd34059b0bab5336a5c2d5c29147260e67f3265119df09bd68e2ae70faa5d871d89 
+19.3.2023, 14:00:40 - INFO - Req was made 
+19.3.2023, 14:00:40 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:00:47 - DEBUG - requireAuth cookies |  
+19.3.2023, 14:00:47 - INFO - Req was made 
+19.3.2023, 14:00:47 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:00:59 - INFO - Req was made 
+19.3.2023, 14:00:59 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:01:04 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 14:01:04 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 14:01:11 - DEBUG - requireAuth cookies | 1c425862e3da08610683cac32de97641e4d1d0dd4654fb1fe4edfbd867a569f781da4bf4596813c51e2a5f4978a86b43c0e04531bb18feac003b74de42b545aab55b454cf52d74ea6d1203474e66d29bc4e0d7ef13e6c773ef1285fdfa04c0422eec0b3346f1d7d1c8aa0516314e1c8ec330f0102c2f221390318451403309918b8831b64ebb2d6d5675921e697f34a3ac7d8b94dececc8f9bf7d348b0436981f77fa290 
+19.3.2023, 14:01:16 - DEBUG - requireAuth cookies | 1c425862e3da08610683cac32de97641e4d1d0dd4654fb1fe4edfbd867a569f781da4bf4596813c51e2a5f4978a86b43c0e04531bb18feac003b74de42b545aab55b454cf52d74ea6d1203474e66d29bc4e0d7ef13e6c773ef1285fdfa04c0422eec0b3346f1d7d1c8aa0516314e1c8ec330f0102c2f221390318451403309918b8831b64ebb2d6d5675921e697f34a3ac7d8b94dececc8f9bf7d348b0436981f77fa290 
+19.3.2023, 14:20:45 - INFO - Server is running on port: 3030 
+19.3.2023, 14:21:12 - INFO - Server is running on port: 3030 
+19.3.2023, 14:21:19 - INFO - Req was made 
+19.3.2023, 14:21:19 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:21:29 - INFO - Server is running on port: 3030 
+19.3.2023, 14:21:58 - INFO - Req was made 
+19.3.2023, 14:21:58 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:22:12 - INFO - Server is running on port: 3030 
+19.3.2023, 14:29:23 - INFO - Req was made 
+19.3.2023, 14:29:23 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:29:38 - DEBUG - auth.service - login with username: eden 
+19.3.2023, 14:29:39 - INFO - User login:  | {"_id":"64146d70aa1a203e8d73455f","username":"eden","fullname":"eden","isAdmin":false} 
+19.3.2023, 14:32:08 - INFO - Req was made 
+19.3.2023, 14:32:08 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:32:40 - INFO - Req was made 
+19.3.2023, 14:32:40 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:34:26 - DEBUG - loggedinUser |  
+19.3.2023, 14:36:27 - DEBUG - loggedinUser |  
+19.3.2023, 14:38:03 - INFO - Req was made 
+19.3.2023, 14:38:03 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:38:06 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:38:06 - INFO - Req was made 
+19.3.2023, 14:39:02 - INFO - Req was made 
+19.3.2023, 14:39:02 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:39:38 - INFO - Req was made 
+19.3.2023, 14:39:38 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:39:47 - DEBUG - loggedinUser |  
+19.3.2023, 14:41:24 - INFO - Req was made 
+19.3.2023, 14:41:24 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:41:47 - DEBUG - loggedinUser |  
+19.3.2023, 14:43:02 - DEBUG - Getting Toys | {} 
+19.3.2023, 14:43:02 - INFO - Req was made 
+19.3.2023, 14:43:08 - DEBUG - loggedinUser |  
+19.3.2023, 15:01:25 - INFO - Server is running on port: 3030 
+19.3.2023, 15:01:31 - INFO - Req was made 
+19.3.2023, 15:01:31 - DEBUG - Getting Toys | {} 
+19.3.2023, 15:01:35 - INFO - Req was made 
+19.3.2023, 15:01:35 - DEBUG - Getting Toys | {} 
+19.3.2023, 15:03:23 - INFO - Req was made 
+19.3.2023, 15:03:23 - DEBUG - Getting Toys | {} 
+19.3.2023, 15:03:49 - INFO - Server is running on port: 3030 
+19.3.2023, 15:03:51 - INFO - Req was made 
+19.3.2023, 15:03:51 - DEBUG - Getting Toys | {} 
+19.3.2023, 15:03:51 - ERROR - Failed to get toys | ReferenceError: toys is not defined 
+19.3.2023, 15:04:02 - INFO - Server is running on port: 3030 
+19.3.2023, 15:04:49 - INFO - Server is running on port: 3030 
+19.3.2023, 15:07:48 - INFO - Server is running on port: 3030 
+19.3.2023, 15:18:01 - INFO - Req was made 
+19.3.2023, 15:18:01 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:21:56 - INFO - Server is running on port: 3030 
+19.3.2023, 16:22:01 - INFO - Req was made 
+19.3.2023, 16:22:01 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:22:30 - INFO - Server is running on port: 3030 
+19.3.2023, 16:38:58 - INFO - Server is running on port: 3030 
+19.3.2023, 16:41:18 - INFO - Req was made 
+19.3.2023, 16:41:18 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:41:24 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 16:41:24 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 16:41:31 - INFO - Req was made 
+19.3.2023, 16:41:31 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:41:35 - INFO - Req was made 
+19.3.2023, 16:41:35 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:41:42 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 16:41:42 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 16:41:46 - INFO - Req was made 
+19.3.2023, 16:41:46 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:42:19 - INFO - Req was made 
+19.3.2023, 16:42:19 - DEBUG - Getting Toys | {} 
+19.3.2023, 16:42:33 - DEBUG - auth.service - login with username: admin 
+19.3.2023, 16:42:33 - INFO - User login:  | {"_id":"64146adef3a0a8d2555c3598","username":"admin","fullname":"admin","isAdmin":true} 
+19.3.2023, 16:47:15 - INFO - Server is running on port: 3030 
+19.3.2023, 16:47:35 - INFO - Server is running on port: 3030 
+19.3.2023, 16:51:22 - INFO - Server is running on port: 3030 
+19.3.2023, 16:52:46 - INFO - Server is running on port: 3030 
+19.3.2023, 16:54:01 - INFO - Server is running on port: 3030 
+19.3.2023, 16:56:37 - INFO - Server is running on port: 3030 
+19.3.2023, 16:56:47 - INFO - Req was made 
+19.3.2023, 16:56:47 - ERROR - while finding user 641722af6bb5a100328ad93b | TypeError: Cannot convert undefined or null to object 
+19.3.2023, 16:56:47 - ERROR - Failed to add review | TypeError: Cannot convert undefined or null to object 

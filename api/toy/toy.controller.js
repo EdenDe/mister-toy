@@ -69,10 +69,13 @@ async function addToyMsg(req, res) {
 	const { loggedinUser } = req
 	logger.debug('loggedinUser', req.body.loggedinUser)
 	try {
-		const toyId = req.params.id
+		const toyId = req.params.toyId
 		const msg = {
 			txt: req.body.txt,
-			by: loggedinUser || '64146adef3a0a8d2555c3598',
+			by: {
+				id: loggedinUser._id || '64146adef3a0a8d2555c3598',
+				fullname: loggedinUser.fullname,
+			},
 		}
 		const savedMsg = await toyService.addToyMsg(toyId, msg)
 		res.json(savedMsg)
