@@ -1,5 +1,5 @@
 <h1> Mister Toy </h1>
-<p> The app has fully supported CRUD, admin only permissions (such as deleting a toy), google map and charts </p>
+<p> The app has fully supported CRUD, admin only permissions (such as deleting a toy), google map, charts and chat </p>
 <p> Built using vuejs, google map API, Chartjs and sockets. </p>
 
 ![image](https://user-images.githubusercontent.com/93701509/233349218-0f4d5e6a-0935-46ad-ac86-a05f648c6d3a.png)
